@@ -22,7 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FDFeedCell class]) bundle:nil] forCellReuseIdentifier:identifier];
     [self buildTestDataThen:^{
         [self.tableView reloadData];
     }];
@@ -60,9 +60,13 @@
     return self.feedEntities.count;
 }
 
+static NSString *identifier = @"FDFeedCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    FDFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FDFeedCell" forIndexPath:indexPath];
+    FDFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+    if (!cell) {
+        cell = [FDFeedCell initWithXib];
+    }
     cell.entity = self.feedEntities[indexPath.row];
     return cell;
 }

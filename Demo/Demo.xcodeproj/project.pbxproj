@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		488EECB71ADFEDC6004EAA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488EECB61ADFEDC6004EAA71 /* main.m */; };
 		488EECBA1ADFEDC6004EAA71 /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488EECB91ADFEDC6004EAA71 /* FDAppDelegate.m */; };
-		488EECC01ADFEDC6004EAA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488EECBE1ADFEDC6004EAA71 /* Main.storyboard */; };
 		488EECC21ADFEDC6004EAA71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488EECC11ADFEDC6004EAA71 /* Images.xcassets */; };
-		488EECC51ADFEDC6004EAA71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488EECC31ADFEDC6004EAA71 /* LaunchScreen.xib */; };
 		488EECE01ADFF7A5004EAA71 /* FDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488EECDF1ADFF7A5004EAA71 /* FDFeedViewController.m */; };
 		488EECE31ADFF884004EAA71 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 488EECE21ADFF884004EAA71 /* FDFeedEntity.m */; };
 		4897E5DD1ADFFBBD00E87B5F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4897E5DC1ADFFBBD00E87B5F /* data.json */; };
 		4897E5E01AE090B900E87B5F /* FDFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4897E5DF1AE090B900E87B5F /* FDFeedCell.m */; };
+		57607C341B50FB0000C89F2B /* FDFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57607C331B50FB0000C89F2B /* FDFeedCell.xib */; };
 		57733B9D1AE7925500FD71E3 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57733B9C1AE7925500FD71E3 /* UITableView+FDTemplateLayoutCell.m */; };
 /* End PBXBuildFile section */
 
@@ -25,11 +24,7 @@
 		488EECB61ADFEDC6004EAA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		488EECB81ADFEDC6004EAA71 /* FDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDAppDelegate.h; sourceTree = "<group>"; };
 		488EECB91ADFEDC6004EAA71 /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
-		488EECBF1ADFEDC6004EAA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488EECC11ADFEDC6004EAA71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		488EECC41ADFEDC6004EAA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		488EECDB1ADFEEE1004EAA71 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		488EECDC1ADFEEE1004EAA71 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		488EECDE1ADFF7A5004EAA71 /* FDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedViewController.h; sourceTree = "<group>"; };
 		488EECDF1ADFF7A5004EAA71 /* FDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedViewController.m; sourceTree = "<group>"; };
 		488EECE11ADFF884004EAA71 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
@@ -37,6 +32,7 @@
 		4897E5DC1ADFFBBD00E87B5F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		4897E5DE1AE090B900E87B5F /* FDFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedCell.h; sourceTree = "<group>"; };
 		4897E5DF1AE090B900E87B5F /* FDFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedCell.m; sourceTree = "<group>"; };
+		57607C331B50FB0000C89F2B /* FDFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDFeedCell.xib; sourceTree = "<group>"; };
 		57733B9B1AE7925500FD71E3 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		57733B9C1AE7925500FD71E3 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,9 +69,7 @@
 			children = (
 				57733B9A1AE7925500FD71E3 /* Classes */,
 				488EECEA1ADFF905004EAA71 /* Feed */,
-				488EECDA1ADFEEE0004EAA71 /* FDTemplateLayoutCell */,
 				488EECC11ADFEDC6004EAA71 /* Images.xcassets */,
-				488EECC31ADFEDC6004EAA71 /* LaunchScreen.xib */,
 				488EECB41ADFEDC6004EAA71 /* Supporting Files */,
 			);
 			path = Demo;
@@ -90,16 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		488EECDA1ADFEEE0004EAA71 /* FDTemplateLayoutCell */ = {
-			isa = PBXGroup;
-			children = (
-				488EECDB1ADFEEE1004EAA71 /* UITableView+FDTemplateLayoutCell.h */,
-				488EECDC1ADFEEE1004EAA71 /* UITableView+FDTemplateLayoutCell.m */,
-			);
-			name = FDTemplateLayoutCell;
-			path = ../../Classes;
-			sourceTree = "<group>";
-		};
 		488EECEA1ADFF905004EAA71 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +95,7 @@
 				488EECDF1ADFF7A5004EAA71 /* FDFeedViewController.m */,
 				4897E5DE1AE090B900E87B5F /* FDFeedCell.h */,
 				4897E5DF1AE090B900E87B5F /* FDFeedCell.m */,
-				488EECBE1ADFEDC6004EAA71 /* Main.storyboard */,
+				57607C331B50FB0000C89F2B /* FDFeedCell.xib */,
 				4897E5DC1ADFFBBD00E87B5F /* data.json */,
 			);
 			name = Feed;
@@ -183,10 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488EECC01ADFEDC6004EAA71 /* Main.storyboard in Resources */,
-				488EECC51ADFEDC6004EAA71 /* LaunchScreen.xib in Resources */,
 				488EECC21ADFEDC6004EAA71 /* Images.xcassets in Resources */,
 				4897E5DD1ADFFBBD00E87B5F /* data.json in Resources */,
+				57607C341B50FB0000C89F2B /* FDFeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,25 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		488EECBE1ADFEDC6004EAA71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				488EECBF1ADFEDC6004EAA71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		488EECC31ADFEDC6004EAA71 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				488EECC41ADFEDC6004EAA71 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		488EECD21ADFEDC6004EAA71 /* Debug */ = {
@@ -312,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -323,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

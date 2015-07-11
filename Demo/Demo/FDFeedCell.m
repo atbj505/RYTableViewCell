@@ -10,15 +10,23 @@
 
 @interface FDFeedCell ()
 
-@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
-@property (nonatomic, weak) IBOutlet UILabel *contentLabel;
-@property (nonatomic, weak) IBOutlet UIImageView *contentImageView;
-@property (nonatomic, weak) IBOutlet UILabel *usernameLabel;
-@property (nonatomic, weak) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+
+@property (weak, nonatomic) IBOutlet UIImageView *contentImageView;
+
+@property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
 @end
 
 @implementation FDFeedCell
+
++ (instancetype)initWithXib {
+    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil] lastObject];
+}
 
 - (void)setEntity:(FDFeedEntity *)entity
 {

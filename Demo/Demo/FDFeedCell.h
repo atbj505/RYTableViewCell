@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) FDFeedEntity *entity;
 
++ (instancetype)initWithXib;
+
 @end
