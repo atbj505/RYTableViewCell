@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - TTTAttributedLabel (2.0.0)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - Masonry
+  - TTTAttributedLabel
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: f7fb27680f96e7d5fccd666a1ea93b5dfb3d2613
+
+COCOAPODS: 1.1.0.rc.3
